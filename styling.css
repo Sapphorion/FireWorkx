@@ -1,0 +1,105 @@
+.page-layout {
+  display: flex;
+  min-height: 166vh; /* make the page long enough to scroll */
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+}
+
+#menu {
+  position: sticky;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(1, 51, 58);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.img1 {
+    filter:drop-shadow(0 0 10px rgb(1, 51, 58)); 
+    position:sticky;
+    top:20px;   
+    width: 500px;
+    z-index: 1000;
+} 
+
+h1 {
+   display:flex; color: aqua; font-family: sans-serif; font-weight: 300; align-content: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 166vh;
+  background-image: url('images/1-9e219363.png'); 
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  filter:drop-shadow(0 0 10px rgb(4, 134, 151));
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  text-align: center;
+  
+  }
+
+.content {
+  background-color: rgb(1, 51, 58); /* Optional overlay */
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+ul {
+  text-align:left;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.contact-form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-image: url(images/1-9e219363.png);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0077cc;
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #005fa3;
+}
