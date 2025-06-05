@@ -1,6 +1,6 @@
 .page-layout {
   display: flex;
-  min-height: 166vh; /* make the page long enough to scroll */
+  min-height: 200vh; /* make the page long enough to scroll */
 }
 
 .sidebar {
@@ -10,7 +10,7 @@
 
 #menu {
   position: sticky;
-  top: 20px;
+  top: 50px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -23,7 +23,7 @@
     filter:drop-shadow(0 0 10px rgb(1, 51, 58)); 
     position:sticky;
     top:20px;   
-    width: 500px;
+    width: 1000px;
     z-index: 1000;
 } 
 
@@ -34,7 +34,7 @@ h1 {
 body {
   margin: 0;
   padding: 0;
-  height: 166vh;
+  height: 250vh;
   background-image: url('images/1-9e219363.png'); 
   background-size:cover;
   background-position: center;
@@ -51,8 +51,10 @@ body {
 
 .content {
   background-color: rgb(1, 51, 58); /* Optional overlay */
-  padding: 20px;
+  padding: 50px;
   border-radius: 10px;
+  line-height: 25px;
+  margin-top: 50px;
   
 }
 ul {
@@ -61,6 +63,7 @@ ul {
 a {
   text-decoration: none;
   color: white;
+  
 }
 .contact-form {
   max-width: 500px;
