@@ -23,8 +23,8 @@
 .img1 {
     filter:drop-shadow(0 0 10px rgb(1, 51, 58)); 
     position:sticky;
-    top:20px;   
-    width: 1000px;
+    top:250px;  
+    width: 1250px;
     z-index: 1000;
 } 
 
@@ -35,7 +35,7 @@ h1 {
 body {
   margin: 0;
   padding: 0;
-  height: 250vh;
+  height: 325vh;
   background-image: url('images/1-9e219363.png'); 
   background-size:cover;
   background-position: center;
@@ -128,4 +128,25 @@ img {
     h1 {
         font-size: 1.5em;
     }
+}
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 8px 0;
+    background-color: #0077cc;
+    color: #fff !important;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.btn:hover {
+    background-color: #005fa3;
+    color: #fff;
+    text-decoration: none;
 }
