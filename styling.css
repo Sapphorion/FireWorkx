@@ -182,7 +182,7 @@ p {
    We use transform:scale so the layout space remains the same while the image looks bigger. */
 #logo {
     display: inline-block;
-    height: 150px;            /* base reserved height */
+    height: 100px;            /* base reserved height */
     width: auto;
     transform: scale(1.6);  /* visual scale (tweak as desired) */
     transform-origin: center;
